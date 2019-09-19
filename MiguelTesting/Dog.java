@@ -1,7 +1,9 @@
 public class Dog extends Canine {
     String name;
-    public void setName(String x) {
+    @Override
+    public String setName(String x) {
         name = x;
+        return name;
     }
     @Override
     public String makeNoise() {
