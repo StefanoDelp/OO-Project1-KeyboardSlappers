@@ -10,6 +10,7 @@ public class Zoo {
         Animal y = new Dog(); //Poly morphism
         zoo.add(y);
         y.setName("Stupid the Dog");
+        zoo.wakeUp();
         zoo.rollCall();
     }
 }

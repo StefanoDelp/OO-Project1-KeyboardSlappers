@@ -2,19 +2,13 @@ import java.util.Random;
 
 public class Dog extends Canine {
     String name;
+    String food = "dog bites";
     @Override
     public String setName(String x) {
         name = x;
         return name;
     }
-    public String getName(String x) {
-        return name;
-    }
-    public int Response() {
-        Random n = new Random();
-        int y = n.nextInt(1);
-        return y;
-    }
+
     @Override
     public String makeNoise() {
         if(Response() == 1) {
@@ -24,6 +18,7 @@ public class Dog extends Canine {
             return(name + " did not say anything");
         }
     }
+
     @Override
     public String wakeUp() {
         if(Response() == 1) {
@@ -31,6 +26,26 @@ public class Dog extends Canine {
         }
         else {
             return (name + " did not want to wake up.");
+        }
+    }
+
+    @Override
+    public String roam() {
+        if(Response() == 1) {
+            return(name + " roamed.");
+        }
+        else {
+            return(name + " did not want to roam.");
+        }
+    }
+
+    @Override
+    public String eat() {
+        if(Response() == 1) {
+            return (name + " ate.");
+        }
+        else {
+            return (name + " did not want to eat.");
         }
     }
 }
