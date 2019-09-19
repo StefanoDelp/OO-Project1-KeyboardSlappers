@@ -36,13 +36,13 @@ class Zoo {
     }
 }
 
-public class Feline implements Animal {
+class Feline implements Animal {
     public void roam() {
         System.out.println("I a Feline, walked.");
     }
 }
 
-public class Pachyderm implements Animal {
+class Pachyderm implements Animal {
     public void roam() {
         System.out.println("I a Pachyderm, walked.");
     }
