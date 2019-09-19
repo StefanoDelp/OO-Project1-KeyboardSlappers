@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Canine implements Animal {
+public abstract class Canine implements Animal {
 
     public String makeNoise() {
         return ("Woof");
