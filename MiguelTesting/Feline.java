@@ -1,13 +1,13 @@
 import java.util.*;
 
-public abstract class Canine implements Animal {
+public abstract class Feline implements Animal {
 
     public String makeNoise() {
         if(Response() == 1) {
-            return ("Canine woofed.");
+            return ("Feline woofed.");
         }
         else {
-            return ("Canine did not woof.");
+            return ("Feline did not woof.");
         }
     }
     public int Response() {
@@ -19,35 +19,35 @@ public abstract class Canine implements Animal {
     public String roam() {
         if (Response() == 1) {
             //awake = true;
-            return ("Canine roamed.");
+            return ("Feline roamed.");
         }
         else {
             //awake = false;
-            return ("Canine did not roam.");
+            return ("Feline did not roam.");
         }
     }
     public String eat() {
         if(Response() == 1) {
-            return ("Canine ate.");
+            return ("Feline ate.");
         }
         else {
-            return ("Canine did not want to eat.");
+            return ("Feline did not want to eat.");
         }
     }
     public String sleep() {
         if(Response() == 1) {
-            return ("Canine is sleeping.");
+            return ("Feline is sleeping.");
         }
         else {
-            return ("Canine did not want to sleep.");
+            return ("Feline did not want to sleep.");
         }
     }
     public String wakeUp() {
         if(Response() == 1) {
-            return ("Canine is awake.");
+            return ("Feline is awake.");
         }
         else {
-            return ("Canine did not want to wake up.");
+            return ("Feline did not want to wake up.");
         }
     }
 }

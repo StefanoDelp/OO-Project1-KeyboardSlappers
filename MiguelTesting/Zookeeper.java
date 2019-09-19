@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-
-import apple.laf.JRSUIConstants.Animating;
+import java.util.*;
 
 public class Zookeeper {
     public static void main(String[] args) {
@@ -26,101 +24,34 @@ class Zoo {
     public void add(Animal x) {
         Animals.add(x);
     }
-
-    public void rollCall(){
-        for(Animal yourTurn: Animals) {
-            System.out.println(yourTurn.getName() + "in the zoo says ");
-            yourTurn.makeNoise();
+    public void rollCall() {
+        System.out.println("\nNow rollcalling\n");
+        for(Animal var : Animals) {
+            System.out.println(var.makeNoise());
         }
     }
-}
-
-abstract class Feline implements Animal {
+    public void wakeUp() {
+        System.out.println("\nNow waking up.\n");
+        for(Animal var : Animals) {
+            System.out.println(var.wakeUp());
+        }
+    }
     public void roam() {
-        System.out.println("I a Feline, walked.");
+        System.out.println("\nNow roaming.\n");
+        for(Animal var : Animals) {
+            System.out.println(var.roam());
+        }
     }
-}
-
-abstract class Pachyderm implements Animal {
-    public void roam() {
-        System.out.println("I a Pachyderm, walked.");
+    public void eat() {
+        System.out.println("\nNow eating.\n");
+        for(Animal var : Animals) {
+            System.out.println(var.eat());
+        }
     }
-}
-
-abstract class Canine implements Animal {
-    public void roam() {
-        System.out.println("I a Canine, walked.");
-    }
-}
-
-abstract class Hippo extends Pachyderm implements Animal {
-    public String getNoise() {
-        return "Muah";
-    }
-    public String getName(){
-        return "Hippo";
-    }
-}
-
-abstract class Rhino extends Pachyderm implements Animal {
-    public String getNoise() {
-        return "Hufff";
-    }
-    public String getName(){
-        return "Rhino";
-    }
-}
-
-abstract class Elephant extends Pachyderm implements Animal {
-    public String getNoise() {
-        return "Toot";
-    }
-    public String getName(){
-        return "Elephant";
-    }
-}
-
-abstract class Tiger extends Feline implements Animal {
-    public String getNoise() {
-        return "Rowl";
-    }
-    public String getName(){
-        return "Tiger";
-    }
-}
-
-abstract class Lion extends Feline implements Animal {
-    public String getNoise() {
-        return "Roar";
-    }
-    public String getName(){
-        return "Lion";
-    }
-}
-
-abstract class Cat extends Feline implements Animal {
-    public String getNoise() {
-        return "Meow";
-    }
-    public String getName(){
-        return "Cat";
-    }
-}
-
-abstract class Wolf extends Canine implements Animal {
-    public String getNoise() {
-        return "Howl";
-    }
-    public String getName(){
-        return "Wolf";
-    }
-}
-
-abstract class Dog extends Canine implements Animal {
-    public String getNoise() {
-        return "Woof";
-    }
-    public String getName(){
-        return "Dog";
+    public void sleep() {
+        System.out.println("\nNow sleeping\n");
+        for(Animal var : Animals) {
+            System.out.println(var.sleep());
+        }
     }
 }

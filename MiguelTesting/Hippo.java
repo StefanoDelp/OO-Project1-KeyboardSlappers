@@ -1,8 +1,8 @@
 import java.util.Random;
 
-public class Dog extends Canine {
+public class Hippo extends Pachyderm {
     String name;
-    String food = "dog bites";
+    String food = "watermelons";
     int resp  = Response();
     @Override
     public String setName(String x) {
@@ -13,7 +13,7 @@ public class Dog extends Canine {
     @Override
     public String makeNoise() {
         if(resp == 1) {
-            return (name + " said woof");
+            return (name + " said ooooo");
         }
         else {
             return(name + " did not say anything");
@@ -33,7 +33,7 @@ public class Dog extends Canine {
     @Override
     public String roam() {
         if(Response() == 1) {
-            return(name + " roamed.");
+            return(name + " swam.");
         }
         else {
             return(name + " did not want to roam.");

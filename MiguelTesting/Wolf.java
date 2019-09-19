@@ -1,8 +1,8 @@
 import java.util.Random;
 
-public class Dog extends Canine {
+public class Wolf extends Canine {
     String name;
-    String food = "dog bites";
+    String food = "meat";
     int resp  = Response();
     @Override
     public String setName(String x) {
@@ -13,7 +13,7 @@ public class Dog extends Canine {
     @Override
     public String makeNoise() {
         if(resp == 1) {
-            return (name + " said woof");
+            return (name + " said howl");
         }
         else {
             return(name + " did not say anything");
