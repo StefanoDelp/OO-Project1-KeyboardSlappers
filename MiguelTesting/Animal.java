@@ -7,4 +7,5 @@ public interface Animal {
     String roam();
     boolean awake = false;
     String eat();
+    String sleep();
 }

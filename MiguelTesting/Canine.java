@@ -34,4 +34,20 @@ public abstract class Canine implements Animal {
             return ("Canine did not want to eat.");
         }
     }
+    public String sleep() {
+        if(Response() == 1) {
+            return ("Canine is sleeping.");
+        }
+        else {
+            return ("Canine did not want to sleep.");
+        }
+    }
+    public String wakeUp() {
+        if(Response() == 1) {
+            return ("Canine is awake.");
+        }
+        else {
+            return ("Canine did not want to wake up.");
+        }
+    }
 }

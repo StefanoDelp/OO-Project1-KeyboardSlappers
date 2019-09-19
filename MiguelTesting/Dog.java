@@ -3,6 +3,7 @@ import java.util.Random;
 public class Dog extends Canine {
     String name;
     String food = "dog bites";
+    int resp  = Response();
     @Override
     public String setName(String x) {
         name = x;
@@ -11,7 +12,7 @@ public class Dog extends Canine {
 
     @Override
     public String makeNoise() {
-        if(Response() == 1) {
+        if(resp == 1) {
             return (name + " said woof");
         }
         else {
@@ -21,7 +22,7 @@ public class Dog extends Canine {
 
     @Override
     public String wakeUp() {
-        if(Response() == 1) {
+        if(resp == 1) {
             return (name + " woke up.");
         }
         else {
@@ -42,10 +43,20 @@ public class Dog extends Canine {
     @Override
     public String eat() {
         if(Response() == 1) {
-            return (name + " ate.");
+            return (name + " ate " + food);
         }
         else {
-            return (name + " did not want to eat.");
+            return (name + " did not want to eat " + food);
+        }
+    }
+
+    @Override
+    public String sleep() {
+        if(resp == 0) {
+            return (name + " is sleeping");
+        }
+        else {
+            return (name + " did not want to sleep.");
         }
     }
 }

@@ -12,5 +12,8 @@ public class Zoo {
         y.setName("Stupid the Dog");
         zoo.wakeUp();
         zoo.rollCall();
+        zoo.roam();
+        zoo.eat();
+        zoo.sleep();
     }
 }
