@@ -7,7 +7,7 @@ public class Main {
         Dog x = new Dog();
         x.setName("Dummy the Dog");
         zoo.add(x);
-        Animal y = new Dog();
+        Animal y = new Dog(); //Poly morphism
         zoo.add(y);
         y.setName("Stupid the Dog");
         zoo.rollCall();
