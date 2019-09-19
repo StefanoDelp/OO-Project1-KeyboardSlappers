@@ -4,7 +4,7 @@ public class Dog extends Canine {
         name = x;
     }
     @Override
-    public void makeNoise() {
-        System.out.println(name + "said woof");
+    public String makeNoise() {
+        return (name + "said woof");
     }
 }

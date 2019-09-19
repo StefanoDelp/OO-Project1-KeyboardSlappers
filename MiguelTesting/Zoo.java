@@ -8,7 +8,7 @@ public class Zoo {
     public void add(Animal x) {
         Animals.add(x);
     }
-    public String rollCall() {
+    public void rollCall() {
         for(Animal var : Animals) {
             System.out.println(var.makeNoise());
         }
