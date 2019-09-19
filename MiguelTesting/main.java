@@ -2,9 +2,9 @@ import java.util.*;
 
 
 public class Main {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         Zoo zoo = new Zoo();
-        zoo.add(new Dog());
-        zoo.makeNoise();
+        Dog x = new Dog();
+        zoo.add(x);
     }
 }
