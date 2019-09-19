@@ -18,6 +18,8 @@ public class Zoo {
         Animal j = new Rino();
         Elephant k = new Elephant();
         Animal l = new Elephant();
+        Hippo m = new Hippo();
+        Animal n = new Hippo();
         a.setName("Willy the Wolf");
         b.setName("Willard the Wolf");
         x.setName("Dummy the Dog");
@@ -32,6 +34,8 @@ public class Zoo {
         j.setName("Riley the Rino");
         k.setName("Eddie the Elephany");
         l.setName("Edgar the Elephant");
+        m.setName("Harry the Hippo");
+        n.setName("Harold the Hippo");
         zoo.add(x);
         zoo.add(y);
         zoo.add(a);
@@ -46,6 +50,8 @@ public class Zoo {
         zoo.add(j);
         zoo.add(k);
         zoo.add(l);
+        zoo.add(m);
+        zoo.add(n);
         zoo.wakeUp();
         zoo.rollCall();
         zoo.roam();
