@@ -5,6 +5,6 @@ public class Dog extends Canine {
     }
     @Override
     public String makeNoise() {
-        return (name + "said woof");
+        return (name + " said woof");
     }
 }
