@@ -10,7 +10,7 @@ public class Zoo {
     }
     public void rollCall() {
         for(Animal var : Animals) {
-            System.out.println(makeNoise());
+            System.out.println(var.makeNoise());
         }
     }
 }
