@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Canine implements Animal {
-    public void makeNoise() {
+    public String makeNoise() {
         return "Woof";
     }
 }
