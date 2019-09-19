@@ -6,9 +6,4 @@ public abstract class Canine implements Animals {
     public void makeNoise() {
         System.out.println("Bork");
     }
-    public int Response()
-    {
-        int n = rand.nextInt(1);
-        return n;
-    }
 }

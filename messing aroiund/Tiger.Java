@@ -1,6 +1,6 @@
-public class Lion extends Feline 
+public class Tiger extends Feline 
 {
-    Food = "Zebra"
+    Food = "Cow"
     @Override
     public void callSound() {
         super.callSound();
