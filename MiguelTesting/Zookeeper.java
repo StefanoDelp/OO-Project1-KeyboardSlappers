@@ -5,7 +5,6 @@ import apple.laf.JRSUIConstants.Animating;
 public class Zookeeper {
     public static void main(String[] args) {
         //This is where all of the testing is going to go
-
     }
 }
 
