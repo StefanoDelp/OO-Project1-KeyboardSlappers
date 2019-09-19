@@ -1,6 +1,6 @@
 public class Lion extends Feline 
 {
-    Food = "Zebra"
+    String Food = "Zebra";
     @Override
     public void callSound() {
         super.callSound();
