@@ -13,4 +13,9 @@ public class Zookeeper {
             System.out.println(var.makeNoise());
         }
     }
+    public void wakeUp(Animal x) {
+        for(Animal var : Animals) {
+            System.out.println(var.wakeUp());
+        }
+    }
 }
