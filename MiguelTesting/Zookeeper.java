@@ -48,55 +48,55 @@ class Pachyderm implements Animal {
     }
 }
 
-public class Canine implements Animal {
+class Canine implements Animal {
     public void roam() {
         System.out.println("I a Canine, walked.");
     }
 }
 
-public class Hippo extends Pachyderm implements Animal {
+class Hippo extends Pachyderm implements Animal {
     public String getNoise() {
         return "Muah";
     }
 }
 
-public class Rhino extends Pachyderm implements Animal {
+class Rhino extends Pachyderm implements Animal {
     public String getNoise() {
         return "Hufff";
     }
 }
 
-public class Elephant extends Pachyderm implements Animal {
+class Elephant extends Pachyderm implements Animal {
     public String getNoise() {
         return "Toot";
     }
 }
 
-public class Tiger extends Feline implements Animal {
+class Tiger extends Feline implements Animal {
     public String getNoise() {
         return "Rowl";
     }
 }
 
-public class Lion extends Feline implements Animal {
+class Lion extends Feline implements Animal {
     public String getNoise() {
         return "Roar";
     }
 }
 
-public class Cat extends Feline implements Animal {
+class Cat extends Feline implements Animal {
     public String getNoise() {
         return "Meow";
     }
 }
 
-public class Wolf extends Canine implements Animal {
+class Wolf extends Canine implements Animal {
     public String getNoise() {
         return "Howl";
     }
 }
 
-public class Dog extends Canine implements Animal {
+class Dog extends Canine implements Animal {
     public String getNoise() {
         return "Woof";
     }
