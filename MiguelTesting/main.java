@@ -6,5 +6,6 @@ public class Main {
         Zoo zoo = new Zoo();
         Dog x = new Dog();
         zoo.add(x);
+        zoo.makeNoise();
     }
 }
