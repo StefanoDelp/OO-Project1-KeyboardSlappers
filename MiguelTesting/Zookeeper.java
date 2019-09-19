@@ -28,7 +28,10 @@ class Zoo {
         Animals.add(x);
     }
 
-    public void
-
-
+    public void rollCall(){
+        for(Animal yourTurn: Animals) {
+            System.out.println(yourTurn.getName() + "in the zoo says ");
+            yourTurn.makeNoise();
+        }
+    }
 }
