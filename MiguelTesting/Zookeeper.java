@@ -36,68 +36,92 @@ class Zoo {
     }
 }
 
-public class Feline implements Animal {
+abstract class Feline implements Animal {
     public void roam() {
         System.out.println("I a Feline, walked.");
     }
 }
 
-public class Pachyderm implements Animal {
+abstract class Pachyderm implements Animal {
     public void roam() {
         System.out.println("I a Pachyderm, walked.");
     }
 }
 
-public class Canine implements Animal {
+abstract class Canine implements Animal {
     public void roam() {
         System.out.println("I a Canine, walked.");
     }
 }
 
-public class Hippo extends Pachyderm implements Animal {
+abstract class Hippo extends Pachyderm implements Animal {
     public String getNoise() {
         return "Muah";
     }
+    public String getName(){
+        return "Hippo";
+    }
 }
 
-public class Rhino extends Pachyderm implements Animal {
+abstract class Rhino extends Pachyderm implements Animal {
     public String getNoise() {
         return "Hufff";
     }
+    public String getName(){
+        return "Rhino";
+    }
 }
 
-public class Elephant extends Pachyderm implements Animal {
+abstract class Elephant extends Pachyderm implements Animal {
     public String getNoise() {
         return "Toot";
     }
+    public String getName(){
+        return "Elephant";
+    }
 }
 
-public class Tiger extends Feline implements Animal {
+abstract class Tiger extends Feline implements Animal {
     public String getNoise() {
         return "Rowl";
     }
+    public String getName(){
+        return "Tiger";
+    }
 }
 
-public class Lion extends Feline implements Animal {
+abstract class Lion extends Feline implements Animal {
     public String getNoise() {
         return "Roar";
     }
+    public String getName(){
+        return "Lion";
+    }
 }
 
-public class Cat extends Feline implements Animal {
+abstract class Cat extends Feline implements Animal {
     public String getNoise() {
         return "Meow";
     }
-}
-
-public class Wolf extends Canine implements Animal {
-    public String getNoise() {
-        return "Howl";
+    public String getName(){
+        return "Cat";
     }
 }
 
-public class Dog extends Canine implements Animal {
+abstract class Wolf extends Canine implements Animal {
+    public String getNoise() {
+        return "Howl";
+    }
+    public String getName(){
+        return "Wolf";
+    }
+}
+
+abstract class Dog extends Canine implements Animal {
     public String getNoise() {
         return "Woof";
+    }
+    public String getName(){
+        return "Dog";
     }
 }
