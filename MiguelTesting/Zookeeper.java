@@ -58,11 +58,17 @@ abstract class Hippo extends Pachyderm implements Animal {
     public String getNoise() {
         return "Muah";
     }
+    public String getName(){
+        return "Hippo";
+    }
 }
 
 abstract class Rhino extends Pachyderm implements Animal {
     public String getNoise() {
         return "Hufff";
+    }
+    public String getName(){
+        return "Rhino";
     }
 }
 
@@ -70,11 +76,17 @@ abstract class Elephant extends Pachyderm implements Animal {
     public String getNoise() {
         return "Toot";
     }
+    public String getName(){
+        return "Elephant";
+    }
 }
 
 abstract class Tiger extends Feline implements Animal {
     public String getNoise() {
         return "Rowl";
+    }
+    public String getName(){
+        return "Tiger";
     }
 }
 
@@ -82,11 +94,17 @@ abstract class Lion extends Feline implements Animal {
     public String getNoise() {
         return "Roar";
     }
+    public String getName(){
+        return "Lion";
+    }
 }
 
 abstract class Cat extends Feline implements Animal {
     public String getNoise() {
         return "Meow";
+    }
+    public String getName(){
+        return "Cat";
     }
 }
 
@@ -94,10 +112,16 @@ abstract class Wolf extends Canine implements Animal {
     public String getNoise() {
         return "Howl";
     }
+    public String getName(){
+        return "Wolf";
+    }
 }
 
 abstract class Dog extends Canine implements Animal {
     public String getNoise() {
         return "Woof";
+    }
+    public String getName(){
+        return "Dog";
     }
 }
