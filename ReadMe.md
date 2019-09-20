@@ -9,5 +9,5 @@ Gabe Raymondi
 Enter the Zoo folder 
 Run the commands:
 
->javac Zoo.java
->java Zoo
+javac Zoo.java
+java Zoo
