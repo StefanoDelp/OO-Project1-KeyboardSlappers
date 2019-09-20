@@ -6,14 +6,7 @@ public class Zookeeper {
     }
 }
 
-//This has all the common methods
-interface Animal {
-    boolean wakeup();
-    String makeNoise();
-    String eat();
-    void roam();
-    boolean sleep();
-}
+
 
 //This is the zoo class 
 class Zoo {
