@@ -1,15 +1,6 @@
 import java.util.*;
 
 public class Zookeeper {
-    public static void main(String[] args) {
-        //This is where all of the testing is going to go
-    }
-}
-
-
-
-//This is the zoo class 
-class Zoo {
     //Put the list in here instead of in main
     ArrayList<Animal> Animals = new ArrayList<>();
     
