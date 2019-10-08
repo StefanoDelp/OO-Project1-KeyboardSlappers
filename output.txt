@@ -1,0 +1,95 @@
+
+Now waking up.
+
+Dummy the Dog did not want to wake up.
+Stupid the Dog woke up.
+Willy the Wolf did not want to wake up.
+Willard the Wolf did not want to wake up.
+Larry the Lion did not want to wake up.
+Londonton the Lion woke up.
+Carl the Cat did not want to wake up.
+Charlie the Cat did not want to wake up.
+Tyler the  Tiger did not want to wake up.
+Thomas the Tiger woke up.
+Rick the Rino woke up.
+Riley the Rino did not want to wake up.
+Eddie the Elephany did not want to wake up.
+Edgar the Elephant woke up.
+Harry the Hippo did not want to wake up.
+Harold the Hippo woke up.
+
+Now rollcalling
+
+Dummy the Dog did not say anything
+Stupid the Dog said woof
+Willy the Wolf did not say anything
+Willard the Wolf did not say anything
+Larry the Lion did not say anything
+Londonton the Lion said Raar
+Carl the Cat did not say anything
+Charlie the Cat did not say anything
+Tyler the  Tiger did not say anything
+Thomas the Tiger said growl
+Rick the Rino said hhhhhh
+Riley the Rino did not say anything
+Eddie the Elephany did not say anything
+Edgar the Elephant said toot
+Harry the Hippo did not say anything
+Harold the Hippo said ooooo
+
+Now roaming.
+
+Dummy the Dog roamed.
+Stupid the Dog did not want to roam.
+Willy the Wolf roamed.
+Willard the Wolf roamed.
+Larry the Lion did not want to roam.
+Londonton the Lion did not want to roam.
+Carl the Cat did not want to roam.
+Charlie the Cat did not want to roam.
+Tyler the  Tiger roamed.
+Thomas the Tiger roamed.
+Rick the Rino did not want to roam.
+Riley the Rino did not want to roam.
+Eddie the Elephany did not want to roam.
+Edgar the Elephant did not want to roam.
+Harry the Hippo did not want to roam.
+Harold the Hippo swam.
+
+Now eating.
+
+Dummy the Dog ate dog bites
+Stupid the Dog did not want to eat dog bites
+Willy the Wolf ate meat
+Willard the Wolf did not want to eat meat
+Larry the Lion did not want to eat gazelles
+Londonton the Lion ate gazelles
+Carl the Cat ate kibble
+Charlie the Cat did not want to eat kibble
+Tyler the  Tiger did not want to eat zebra
+Thomas the Tiger did not want to eat zebra
+Rick the Rino did not want to eat grass
+Riley the Rino did not want to eat grass
+Eddie the Elephany ate peanuts
+Edgar the Elephant ate peanuts
+Harry the Hippo did not want to eat watermelons
+Harold the Hippo ate watermelons
+
+Now sleeping
+
+Dummy the Dog is sleeping
+Stupid the Dog did not want to sleep.
+Willy the Wolf is sleeping
+Willard the Wolf is sleeping
+Larry the Lion is sleeping
+Londonton the Lion did not want to sleep.
+Carl the Cat is sleeping
+Charlie the Cat is sleeping
+Tyler the  Tiger is sleeping
+Thomas the Tiger did not want to sleep.
+Rick the Rino did not want to sleep.
+Riley the Rino is sleeping
+Eddie the Elephany is sleeping
+Edgar the Elephant did not want to sleep.
+Harry the Hippo is sleeping
+Harold the Hippo did not want to sleep.
